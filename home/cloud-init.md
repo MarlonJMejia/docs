@@ -39,7 +39,7 @@ qm set 8000 --agent enabled=1,fstrim\_cloned\_disks=1
 qm disk resize 8000 scsi0 15G
 ```
 
-Apply Cloud-init settings
+Apply cloud-init settings
 
 ```
 qm set 8000 --ide2 local-lvm:cloudinit
