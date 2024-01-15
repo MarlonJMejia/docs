@@ -13,7 +13,7 @@ Location for qcwo2 files are under `/var/lib/vz/template/iso/` on proxmox | [Rep
 
 
 
-Modifying cloud image with virt-customize
+Modifying cloud images with virt-customize
 
 ```
 # Enable a service by running a command
