@@ -2,7 +2,7 @@
 title: LXC
 description: Creation & Automation of LXC Templates
 published: true
-date: 2024-06-10T01:24:51.517Z
+date: 2024-06-10T01:25:24.965Z
 tags: lxc, proxmox, containers
 editor: markdown
 dateCreated: 2024-06-10T01:21:36.333Z
@@ -10,7 +10,7 @@ dateCreated: 2024-06-10T01:21:36.333Z
 
 # Creating a LXC Template
 
-# Command Line Method
+# Downloading a Template
 
 1. Update list of available template and their version.
 
