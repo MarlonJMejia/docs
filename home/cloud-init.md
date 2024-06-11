@@ -2,7 +2,7 @@
 title: Cloud-Init Template Creation
 description: 
 published: 1
-date: 2024-06-11T09:45:59.968Z
+date: 2024-06-11T18:04:42.423Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-10T04:21:31.688Z
@@ -37,7 +37,7 @@ qm set 8000 --net0 virtio,bridge=vmbr1
 qm set 8000 --memory 2064 --cores 2 --cpu host
 qm set 8000 --scsi0 local-lvm:0,import-from="/var/lib/vz/template/iso/AlmaLinux-9-GenericCloud-9.3-20231113.x86\_64.qcow2",discard=on,ssd=1
 qm set 8000 --boot order=scsi0 --scsihw virtio-scsi-single
-qm set 8000 --agent enabled=1,fstrim\_cloned\_disks=1
+qm set 8000 --agent enabled=1,fstrim_cloned_disks=1
 qm disk resize 8000 scsi0 15G
 ```
 
@@ -46,7 +46,7 @@ Apply cloud-init settings
 ```
 qm set 8000 --ide2 local-lvm:cloudinit
 qm set 8000 --ipconfig0 "ip=dhcp"
-qm set 8000 --sshkeys ~/.ssh/id\_rsa.pub
+qm set 8000 --sshkeys ~/.ssh/id_rsa.pub
 qm set 8000 --ciuser root
 qm set 8000 --cipassword hidden
 ```
