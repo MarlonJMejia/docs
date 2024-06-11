@@ -2,7 +2,7 @@
 title: Cloud-Init Template Creation
 description: 
 published: 1
-date: 2024-06-11T09:32:31.950Z
+date: 2024-06-11T09:32:57.429Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-10T04:21:31.688Z
@@ -32,7 +32,6 @@ virt-customize -a AlmaLinux-9-GenericCloud-9.3-20231113.x86_64.qcow2 --install q
 Virtual machine configuration and creation
 
 ```
-qm create 8000 --name rocky-9-3-init --ostype l26
 qm create 8000 --name almalinux-9-3-init --ostype l26
 qm set 8000 --net0 virtio,bridge=vmbr1
 qm set 8000 --memory 2064 --cores 2 --cpu host
