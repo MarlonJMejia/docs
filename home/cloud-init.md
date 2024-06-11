@@ -1,17 +1,20 @@
 ---
 title: Cloud-Init Template Creation
 description: 
-published: true
-date: 2024-01-13T05:45:52.259Z
+published: 1
+date: 2024-06-11T09:32:31.950Z
 tags: 
 editor: markdown
-dateCreated: 2024-01-13T05:33:22.832Z
+dateCreated: 2024-06-10T04:21:31.688Z
 ---
-
 
 Location for qcwo2 files are under `/var/lib/vz/template/iso/` on proxmox | [Repository for Alma Linux images](https://repo.almalinux.org/almalinux/9/cloud/x86_64/images/)
 
-
+> Packages required:
+> 
+> - libguestfs-tools
+> 
+{.is-info}
 
 Modifying cloud images with virt-customize
 
