@@ -2,7 +2,7 @@
 title: Cloud-Init Template Creation
 description: 
 published: 1
-date: 2024-06-11T18:04:42.423Z
+date: 2024-06-11T18:05:07.318Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-10T04:21:31.688Z
@@ -23,7 +23,7 @@ Preparing and modidying the cloud image
 virt-customize -a AlmaLinux-9-GenericCloud-9.3-20231113.x86_64.qcow2 --run-command 'systemctl enable ssh.service'
 
 # Change timezone 
-virt-customize -a AlmaLinux-9-GenericCloud-9.3-20231113.x86_64.qcow2 --timezone America/New_York
+virt-customize -a AlmaLinux-9-GenericCloud-9.3-20231113.x86_64.qcow2 --timezone UTC
 
 # Install qemu-guest-agent
 virt-customize -a AlmaLinux-9-GenericCloud-9.3-20231113.x86_64.qcow2 --install qemu-guest-agent 
