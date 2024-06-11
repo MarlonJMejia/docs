@@ -2,7 +2,7 @@
 title: Cloud-Init Template Creation
 description: 
 published: 1
-date: 2024-06-11T09:32:57.429Z
+date: 2024-06-11T09:45:59.968Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-10T04:21:31.688Z
@@ -16,7 +16,7 @@ Location for qcwo2 files are under `/var/lib/vz/template/iso/` on proxmox | [Rep
 > 
 {.is-info}
 
-Modifying cloud images with virt-customize
+Preparing and modidying the cloud image
 
 ```
 # Enable a service by running a command
