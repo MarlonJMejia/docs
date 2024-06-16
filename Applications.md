@@ -2,7 +2,7 @@
 title: Services and Applications
 description: 
 published: 1
-date: 2024-06-16T20:30:50.066Z
+date: 2024-06-16T20:33:01.338Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-16T20:29:54.203Z
@@ -10,7 +10,7 @@ dateCreated: 2024-06-16T20:29:54.203Z
 
 # Services
 
-# Fail2Ban 
+# <kbd>Fail2Ban</kbd>
 
 `/etc/fail2ban/local` sets up an aggressive filtering mode for SSHD and an aggresive timeout for other Services.
 
