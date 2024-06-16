@@ -2,7 +2,7 @@
 title: Untitled Page
 description: 
 published: 1
-date: 2024-06-16T20:29:54.203Z
+date: 2024-06-16T20:30:28.029Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-16T20:29:54.203Z
@@ -12,7 +12,7 @@ dateCreated: 2024-06-16T20:29:54.203Z
 
 # Fail2Ban 
 
-`/etc/fail2ban/local` sets up an aggressive filtering mode for SSHD
+`/etc/fail2ban/local` sets up an aggressive filtering mode for SSHD and an aggresive timeout for other Services.
 
 ```
 [sshd]
