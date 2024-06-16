@@ -1,8 +1,8 @@
 ---
-title: Untitled Page
+title: Services and Applications
 description: 
 published: 1
-date: 2024-06-16T20:30:28.029Z
+date: 2024-06-16T20:30:50.066Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-16T20:29:54.203Z
