@@ -2,7 +2,7 @@
 title: Cloud-Init Template Creation
 description: 
 published: 1
-date: 2024-06-11T18:05:07.318Z
+date: 2024-06-19T04:03:31.376Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-10T04:21:31.688Z
@@ -33,7 +33,7 @@ Virtual machine configuration and creation
 
 ```
 qm create 8000 --name almalinux-9-3-init --ostype l26
-qm set 8000 --net0 virtio,bridge=vmbr1
+qm set 8000 --net0 virtio,bridge=vmbr1,tag=30
 qm set 8000 --memory 2064 --cores 2 --cpu host
 qm set 8000 --scsi0 local-lvm:0,import-from="/var/lib/vz/template/iso/AlmaLinux-9-GenericCloud-9.3-20231113.x86\_64.qcow2",discard=on,ssd=1
 qm set 8000 --boot order=scsi0 --scsihw virtio-scsi-single
